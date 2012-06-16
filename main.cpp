@@ -5,7 +5,7 @@
 #include "nn_with_bias.h"
 #include "MersenneTwister.h"
 
-#define TRAININGSETSIZE 10000
+#define TRAININGSETSIZE 1000
 #define OUTPUTHIGH 1
 #define OUTPUTLOW -1
 #define NUMBEROFEPOCHS 10000

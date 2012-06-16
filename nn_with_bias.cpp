@@ -279,10 +279,11 @@ void nn_with_bias::trainEpoch(double*& target)
     {
         for(int i=0; i<numlayers; i++)
         {
-            if(delta_weights[i]!=0)
-            {
+                for(int j=0; j<layersizes[i]+1; j++)
+                {
+                    delete delta_weights[i][j];
+                }
                 delete delta_weights[i];
-            }
         }
         delete delta_weights;
         delta_weights=0;

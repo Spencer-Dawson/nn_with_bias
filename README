@@ -3,3 +3,6 @@ It should be pretty simple to figure out based on the comments in the included f
 enjoy
 
 Spencer Dawson
+
+Change 1
+	Fixed a small memory leak
